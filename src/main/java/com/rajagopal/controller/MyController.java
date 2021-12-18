@@ -12,7 +12,7 @@ public class MyController {
 		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");  
 		LocalDateTime now = LocalDateTime.now();  
 		System.out.println(dtf.format(now));  
-		return "Time in US EAST is " + dtf.format(now);  
+		return "Time now in US EAST is " + dtf.format(now);  
 	}  
 
 }
